@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nutri_android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/nutri_logo_whitegreen"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/nutri_logo_whitegreen"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".auth.activities.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
